@@ -2,6 +2,8 @@ public class PlanoOperadora {
     public static void main(String[] args) {
         String plano = "T"; // M / T
 
+
+        // If - else if
         //if (plano == "B") {
         //    System.out.println("100 minutos de ligação");
         //} else if (plano == "M") {
@@ -12,7 +14,7 @@ public class PlanoOperadora {
         //    System.out.println("WhatsApp e Instagram grátis");
         //    System.out.println("5Gb Youtube");
         //}
-
+            //switch case
         switch (plano) {
             case "B": {
                 System.out.println("100 minutos de ligação");
